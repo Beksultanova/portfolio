@@ -12,121 +12,149 @@
 <body>
     <header class="header">
         <nav class="header-navigation">
-            <div class="container">
-                <a id="logo" class="header-logo" href="#home">AB</a>
-                <ul class="menu">
-                    <li class="menu-item">
-                        <a class="menu-link" href="#home">Home</a>
-                    </li>
-                    <li class="menu-item">
-                        <a class="menu-link" href="#about">About me</a>
-                    </li>
-                    <li class="menu-item">
-                        <a class="menu-link" href="#skills">Skills</a>
-                    </li>
-                    <li class="menu-item">
-                        <a class="menu-link" href="#education">Education</a>
-                    </li>
-                    <li class="menu-item">
-                        <a class="menu-link" href="#languages">Languages</a>
-                    </li>
-                    <li class="menu-item">
-                        <a class="menu-link" href="#example">Code example</a>
-                    </li>
-                    <li class="menu-item">
-                        <a class="menu-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
+            <div class="bg-color-blue">
+                <div class="container">
+                    <div class="intro">
+                        <a id="logo" class="header-logo" href="#home">AnjelikaBeksultanova</a>
+                        <ul class="menu">
+                            <li class="menu-item">
+                                <a class="menu-link" href="#home">Home</a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" href="#about">About me</a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" href="#skills">Skills</a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" href="#education">Education</a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" href="#languages">Languages</a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" href="#example">Code example</a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </nav>
-        <img width="200" src="./img/photo.jpg" alt="logo">
     </header>
     <main>
         <section id="about">
-            <h1>Anjelika Beksultanova</h1>
-            <p>I am interested in a lot of knowledge in programming and my interest in gaining experience is strong.</p>
+            <div class="bg-color-white">
+                <div class="container padding flex">
+                    <img class="section-img" src="./img/photo.jpg" alt="logo">
+                    <div class="section-texts">
+                        <h1 class="section-title">Anjelika Beksultanova</h1>
+                        <h3 class="section-subtitle">Front-end Developer</h3>
+                        <p class="section-text">I am interested in a lot of knowledge in programming and my interest in gaining experience is strong.</p>
+                    </div>
+                </div>
+            </div>
         </section>
-        <hr>
         <section id="skills">
-            <h2>Skills:</h2>
-            <ul>
-                <li>
-                    <h3>In programming</h3>
-                    <ul>
-                        <li>Html</li>
-                        <li>Css</li>
-                        <li>SASS, Scss</li>
-                        <li>Bootstrap</li>
+            <div class="bg-color-blue">
+                <div class="container padding">
+                    <h1 class="section-title white center">Skills:</h1>
+                    <ul class="menu gap padding-top">
+                        <li class="skills-menu-item">Html</li>
+                        <li class="skills-menu-item">Css</li>
+                        <li class="skills-menu-item">SASS, Scss</li>
+                        <li class="skills-menu-item">Bootstrap</li>
+                        <li class="skills-menu-item">Adobe Photoshop</li>
+                        <li class="skills-menu-item">Corel Draw</li>
+                        <li class="skills-menu-item">Figma</li>
                     </ul>
-                </li>
-                <li>
-                    <h3>In design</h3>
-                    <ul>
-                        <li>Adobe Photoshop</li>
-                        <li>Corel Draw</li>
-                        <li>Figma</li>
-                    </ul>
-                </li>
-            </ul>
+                </div>
+            </div>
         </section>
-        <hr>
         <section id="education">
-            <h2>Education</h2>
-            <ul>
-                <li>Kyrgyz National University, Software Engineering for Computers and Automated Systems, started in 2020 up to present</li>
-                <li>Jyldyz Academy, frontend developer, started in 2021 up to present</li>
-            </ul>
+            <div class="bg-color-white">
+                <div class="container padding">
+                    <h1 class="section-title blue center">Education</h1>
+                    <ul class="section-subtitle blue padding-top">
+
+                        <li> &bull; Kyrgyz National University, Software Engineering for Computers and Automated Systems, started in 2020 up to present</li> <br>
+                        <li> &bull; Jyldyz Academy, frontend developer, started in 2021 up to present</li>
+                    </ul>
+                </div>
+            </div>
         </section>
-        <hr>
         <section id="languages">
-            <h2>
-                Languages
-            </h2>
-            <ul>
-                <li>
-                    <h4>Kyrgyz &ndash; native</h4>
-                </li>
-                <li>
-                    <h4>English &ndash; elementary (I'm currently learning)</h4>
-                </li>
-            </ul>
+            <div class="bg-color-blue">
+                <div class="container padding">
+                    <h1 class="section-title white center">
+                        Languages
+                    </h1>
+                    <ul class="section-subtitle white padding-top">
+                        <li>
+                            <h4>&bull; Kyrgyz &ndash; native</h4>
+                        </li> <br>
+                        <li>
+                            <h4>&bull; English &ndash; elementary (I'm currently learning)</h4>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </section>
-        <hr>
         <section id="example">
-            <h2>Code example</h2>
-            <pre>
-              <code>
-                let num = 0;
-                while (num &lt; 5) {
-                console.log(num);
-                num++;
-                 }
-              </code>
-            </pre>
+            <div class="bg-color-white">
+                <div class="container padding">
+                    <h1 class="section-title blue center">Code example</h1>
+                    <p class="section-text-task padding-top">
+                        <b>Lorem ipsum:</b> <i>dolor sit amet consectetur adipisicing elit. Hic cum asperiores vel!</i>
+                    </p>
+                    <div class="padding-top">
+                        <div class="example padding-top">
+                            <pre>
+                                <code>
+                                  let num = 0;
+                                  while (num &lt; 5) {
+                                  console.log(num);
+                                  num++;
+                                   }
+                                </code>
+                              </pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
-        <hr>
         <section id="contact">
-            <h2>Contact</h2>
-            <ul>
-                <li>
-                    <h3>Location</h3>
-                    <p>Osh, Kyrgyzstan</p>
-                </li>
-                <li>
-                    <h3>Phone number</h3>
-                    <a href="tel:+996999090966">+996 999 09 09 66</a>
-                </li>
-                <li>
-                    <h3>Email</h3>
-                    <a href="mailto:anjelika.beksultanova.kk@gmail.com">anjelika.beksultanova.kk@gmail.com</a>
-                </li>
-            </ul>
+            <div class="bg-color-blue">
+                <div class="container padding">
+                    <h2 class="section-title white center">Contact</h2>
+                    <ul class="contact padding-top">
+                        <li>
+                            <h3>Location</h3>
+                            <p>Osh, Kyrgyzstan</p>
+                        </li>
+                        <li>
+                            <h3>Phone number</h3>
+                            <p><a class="white" href="tel:+996999090966">+996 999 09 09 66</a></p>
+                        </li>
+                        <li>
+                            <h3>Email</h3>
+                            <p><a class="white" href="mailto:anjelika.beksultanova.kk@gmail.com">anjelika.beksultanova.kk@gmail.com</a></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </section>
-        <hr>
     </main>
     <footer>
-        &copy; 2020 <br>
-        <a href="https://linktr.ee/jyldyzacademy2020">Jyldyz Academy</a>
+        <div class="bg-color-white">
+            <div class="container">
+                <div class="content">
+                    <p class="blue center">&copy; 2022 <br></p>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 
